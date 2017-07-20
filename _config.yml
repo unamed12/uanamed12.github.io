@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
@@ -55,3 +56,6 @@ cdn:
   jquery_hash:    "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   popper:         https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.10.8/umd/popper.min.js
   popper_hash:    "sha256-n96swYoYKdVyLr5XatK9CzcdyrpAI0xcSlIeWOZeTAI="
+=======
+theme: jekyll-theme-cayman
+>>>>>>> e5143291cc9f2021eb84983464a50a9d7f30f4ba
