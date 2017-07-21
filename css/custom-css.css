@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+  font-family:  'Noto Sans KR',"나눔 고딕","Nanum Gothic","맑은 고딕","Malgun Gothic","Apple Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #484848;
+  word-break: keep-all;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nav-theme {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #00a8ff;
+  background-color: transparent !important;
+}
+
+.level1 {
+  height: 600px;
+  width: 100%;
+}
+
+.level1>.content {
+  padding-top: 100px;
+}
+
+.level1>.content .title {
+  font-weight: 700 !important;
+  font-size: 38px !important;
+  letter-spacing: -0.6px !important;
+  color: #00a8ff;
+}
+.level1>.content .subtitle {
+  font-weight: 300 !important;
+  font-size: 30px !important;
+  letter-spacing: -0.6px !important;
+  color:#484848;
+}
