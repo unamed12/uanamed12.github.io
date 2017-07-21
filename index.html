@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Figureoutbong.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -48,14 +48,51 @@
   <section>
     <div class="level1">
       <div class="container content">
-        <div class="title">
-          하봉안 소개
-        </div>
-        <div class="subtitle">
-          하봉안의 웹페이지에 오신 것을 환영합니다.<br />이 곳에서는 하봉안에 관한 많은 것들을 알 수 있습니다. 잘 알려지지 않은 사실들까지요!
+        <div class="row">
+          <div class="col-md-6">
+          </div>
+          <div class="col-md-6 fadeineffect">
+            <div class="title">
+              안녕하세요!
+            </div>
+            <div class="subtitle">
+              Bong의 웹페이지에 오신 것을 환영합니다. 이 곳에서는 세간에 알려지지 않은 Bong에 대한 상세한 정보들을 얻을 수 있습니다. 여기 있는 정보를 열람하고, 그와 대화하고 싶다면, 언제든이 연락하세요. 항상 당신을 기다립니다!
+            </div>
+            <div>
+              <button class="btn btn-blue-fill" style="margin-top:15px;" onclick="window.open('https://www.facebook.com')">연락하기</button>
+            </div>
+          </div>
         </div>
 
       </div>
+    </div>
+    <div class="level2 hideme">
+      <div class="container content">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <div class="title basic-title">
+              소개
+            </div>
+            <div class="subtitle">
+              Techno Utopian
+            </div>
+            <div class="des">
+              <p>
+                저는 기술의 발전이 보다 나은 세상을 가져올 수 있다는 테크노 유토피아(Techno Utopia)의 신념을 가지고 있습니다. 일론 머스크나 스티브 잡스와 같은 테크노 유토피안들이 불러 일으키는 새로운 혁신들은 자라나는 세대에게 꿈과 영감을 주는 최고의 선례가 되었습니다.
+              </p>
+              <p>
+                저는 기술을 통해 무언가를 만들어냄으로서 누군가의 불편함을 해결하고, 사람들이 필요한 무언가를 만들거나 사람들이 보다 더 나은 미래에 사는 것에 제가 기여할 수 있기를 소망하고 있습니다.
+              </p>
+              <p>
+                다른 사람의 삶에 보다 가치를 더하거나, 미래를 보다 더 낫게 만드는 것이야말로 정말 제가 솔직하게 하고 싶은 가장 가치있는 일 중 하나가 아닐까 생각합니다.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </section>
   <footer>
@@ -63,11 +100,25 @@
 
   </footer>
 
-
   <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
   <script src="js/bootstrap.min.js"></script>
 </body>
+<script>
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      $('.hideme').each(function(i) {
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        if (bottom_of_window > bottom_of_object) {
+          $(this).animate({
+            'opacity': '1'
+          }, 500);
+        }
+      });
+    });
+  });
+</script>
 
 </html>
