@@ -1,9 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :development, :test do
-  gem 'jekyll', '~> 3.4.5'
-  gem 'jekyll-redirect-from', '~> 0.12.1'
-  gem 'jekyll-sitemap', '~> 1.1.1'
-  gem 'jekyll-toc', '~> 0.3.0.pre1'
-  gem 'scss_lint', '~> 0.54.0'
-end
+gem "jekyll", "~> 3.1"
+gem "jekyll-sitemap"
+gem "pygments.rb"
