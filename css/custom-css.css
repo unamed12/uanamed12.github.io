@@ -2,12 +2,13 @@
 body {
   font-family: 'Noto Sans KR', "맑은 고딕", "Malgun Gothic", "Apple Gothic", "돋움", Dotum, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 14px;
-  line-height: 1.42857143;
+  font-weight: 300;
+  line-height: 1.8;
   color: #484848;
   word-break: keep-all;
   background-color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 @media (min-width: 768px) {
@@ -45,16 +46,18 @@ body {
 
 .level1>.content .title {
   margin-top:30px;
+  line-height: 1.5;
   font-weight: 700 !important;
-  font-size: 42px !important;
+  font-size: 45px !important;
   letter-spacing: -0.6px !important;
   color: #00a8ff;
 }
 
 .level1>.content .subtitle {
   margin-top: 10px;
+  line-height: 1.5;
   font-weight: 300 !important;
-  font-size: 20px !important;
+  font-size: 30px !important;
   color: #484848;
 }
 
@@ -78,26 +81,39 @@ body {
 
 .level2 > .content {
   padding: 100px 0px;
-  color:white;
-  background-color:#7ad2ff;
+  color:#3d464d;
+  background-color:#f9f9f9;
 }
 
 .level2 > .content .title{
 
 }
-.level2 > .content .subtitle{
-  margin-top:15px;
-  font-size:18px;
-  font-weight: bold;
+
+.level2 > .content .desc{
+  margin-top:40px;
 }
-.level2 > .content .des{
-  margin-top:20px;
-  font-size:16px;
+
+.level2 > .content .bgimg{
+  width:500px;
+  height:auto;
+  margin:40px auto;
+  margin-bottom: 0px;
+
+}
+ .logo{
+  width:200px;
+  height:200px;
+  max-width: 100%;
+  border-radius: 50%;
+  display: none;
 }
 
 .basic-title{
   font-size:30px;
-  font-weight: bold;
+}
+
+.basic-desc{
+  font-size:20px;
 }
 
 .btn {
