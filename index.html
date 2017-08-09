@@ -23,7 +23,6 @@
 
 <body>
   <header>
-    <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top nav-theme">
       <div class="container">
         <div class="navbar-header">
@@ -42,48 +41,133 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <!--/.nav-collapse -->
       </div>
     </nav>
   </header>
   <section>
     <div class="level1">
-      <div class="container content">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8 fadeineffect">
-            <div class="title">
-              안녕하세요!
-            </div>
-            <div class="subtitle">
-              하봉안의 웹페이지를 찾아주셔서 감사합니다. 저는 기술을 통해 불편함을 해소하고, 보다 나은 세상을 만들고 싶은 기획자이자 전략가이며, 비즈니스맨입니다.
-            </div>
-            <div>
-              <button class="btn btn-blue-fill" style="margin-top:15px;" onclick="window.open('https://www.facebook.com')">연락하기</button>
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-10 fadeineffect text-center">
+              <div class="title">
+                안녕하세요!
+              </div>
+              <div class="subtitle">
+                저는 기술을 통해 불편함을 해소하고, 보다 나은 세상을 만들고 싶은 기획자이자 전략가이며, 비즈니스맨입니다.
+              </div>
+              <div class="btns">
+                <div class="table-responsive">
+                  <table class="table">
+                    <tr>
+                      <td>
+                        <a href="#result">
+                          <img class="icons" src="image/icon-report.png" />
+                          <div>
+                            이룩한 성과들
+                          </div>
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#result">
+                          <img class="icons" src="image/icon-vision.png" />
+                          <div>
+                            추구하는 가치
+                          </div>
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#result">
+                          <img class="icons" src="image/icon-experience.png" />
+                          <div>
+                            여러 경험들
+                          </div>
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#result">
+                          <img class="icons" src="image/icon-skill.png" />
+                          <div>
+                            직무 스킬들
+                          </div>
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#result">
+                          <img class="icons" src="image/icon-contact.png" />
+                          <div style="padding-top:10px;">
+                            연락하기
+                          </div>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="btn btn-blue-fill" onclick="window.open('https://www.facebook.com/bongan.ha.7')">연락하기</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="level2 addpadding hideme">
+    <div class="level2" id="result">
       <div class="content">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-              <div class="title basic-title">
-                하봉안이 만들어 간 성과들
+            <div class="col-md-8 col-md-offset-2">
+              <div class="title basic-title text-center">
+                하봉안이 이룩한 성과들
               </div>
-              <div class="desc basic-desc">
-                시스템이 정해져 있는 일을 하기보다, 시스템을 만들어가는 일을 주로 했습니다. 실행하고자 하는 전략의 ‘구체적 기대 효과’와 ‘목표’를 정의하고, 이를 통해 달성할 ‘성과’를 구체적으로 정의하고 고민합니다.
-                지난 2012년부터 인터넷 업계에 몸을 담고 3개의 웹서비스와 2개의 모바일 애플리케이션을 개발하고 운영하였습니다. 앞으로 눈을 감는 그날까지 사람들의 일상을 혁신하는 기술 비즈니스 매니아가 되고 싶습니다.
-                <img class="bgimg img-responsive" src="image/level2.png"/>
+              <div class="desc basic-desc text-center">
+                시스템이 정해져 있는 일을 하기보다, 시스템을 만들어가는 일을 주로 했습니다. 어떤 일이든 구체적인 '기대 효과’와 ‘목표’를 정의하고, 이를 통해 달성할 ‘성과’를 중심으로 고민합니다. 지난 2012년부터 인터넷 업계에 몸을 담고 3개의 웹서비스와 2개의 모바일 애플리케이션을 개발하고 운영하였습니다. 앞으로 눈을 감는 그날까지 사람들의 일상을 혁신하는 기술 비즈니스 매니아가 되고 싶습니다.
+                <div class="report-summary">
+                  <div class="title">
+                    성과 요약
+                  </div>
+                  <div class="card desc">
+                    <div class="title">
+                      인터넷 기업에 눈뜨다
+                    </div>
+                    <div class="desc">
+                      <div>
+                        - 일일 20개의 기사를 편집, 작성, 발행하고, 웹서비스의 기획 및 콘텐츠 유통을 담당하였음.
+                      </div>
+                      <div>
+                        <a style="cursor:pointer;color:inherit;" data-toggle="modal" data-target="#myModal">- 일일 세션수 5만 달성, 랭키닷컴 기준 뉴미디어 부문 1위 달성</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img class="bgimg img-responsive" src="image/level2.png" />
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog text-center" >
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-12">
+                          <img src="image/newsmon-rankydotcom.jpg" style="max-width:100%;"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- Modal -->
+
         </div>
       </div>
     </div>
 
-<!--
+    <!--
     <img class="logo" src="image/icon1.png" />
     <img class="logo" src="image/icon2.png" />
     <img class="logo" src="image/icon3.png" />
@@ -120,30 +204,11 @@
     </div> -->
 
   </section>
-  <footer>
-    푸터입니다.
-
-  </footer>
 
   <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
   <script src="js/bootstrap.min.js"></script>
 </body>
-<script>
-  $(document).ready(function() {
-    $(window).scroll(function() {
-      $('.hideme').each(function(i) {
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        if (bottom_of_window > bottom_of_object) {
-          $(this).animate({
-            'opacity': '1'
-          }, 800);
-        }
-      });
-    });
-  });
-</script>
 
 </html>

@@ -11,6 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale !important;
 }
 
+.card{
+  border: solid 1px rgba(0, 0, 0, 0.1) !important;
+  background: #fff;
+  padding:10px;
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     border: none !important;
@@ -35,16 +41,17 @@ body {
   background-color: transparent !important;
 }
 
+/*레벨1 시작*/
 .level1 {
   height: 650px;
   width: 100%;
 }
 
-.level1>.content {
+.level1 .content {
   padding-top: 120px;
 }
 
-.level1>.content .title {
+.level1 .content .title {
   margin-top:30px;
   line-height: 1.5;
   font-weight: 700 !important;
@@ -53,7 +60,7 @@ body {
   color: #00a8ff;
 }
 
-.level1>.content .subtitle {
+.level1 .content .subtitle {
   margin-top: 10px;
   line-height: 1.5;
   font-weight: 300 !important;
@@ -67,14 +74,59 @@ body {
   width:450px;
   height:100%;
 }
+.level1 .content .btns{
+  margin-top:70px;
+}
+.level1 .content .btns .btn{
+  margin-top:50px;
+}
+.level1 .content .btns ul{
+  list-style: none;
+  padding:0px;
+}
+.level1 .content .btns .icons{
+  width:60px;
+  height:auto;
+  transition:all 3s ease-out;
+}
+.level1 .content .btns .table a:hover .icons{
+  position: relative;
+  top:-10px;
+}
 
-/* 레벨2 */
-@media (max-width: 991px) {
-  .addpadding{
-    padding-top:230px;
+.level1 .table-responsive {
+  border : none;
+}
+.level1 table > tbody > tr > td{
+  border:none !important;
+  padding-right: 30px;
+  vertical-align : middle;
+}
+.level1 table > tbody > tr > td > a {
+  text-decoration: none;
+}
+.level1 table > tbody > tr > td > a > div{
+  padding-top:20px;
+  font-weight: 400;
+  font-size: 16px;
+  color:#47525d;
+}
+@media (max-width: 707px) {
+  .level1 .content{
+    padding-top:50px !important;
+  }
+}
+@media (max-width: 410px) {
+  .level1 .content .btns{
+    margin-top: 30px;
+  }
+  .level1 .content .btns .btn{
+    margin-top: 30px;
   }
 }
 
+
+/* 레벨2 */
 .level2{
   height:550px;
 }
@@ -91,6 +143,31 @@ body {
 
 .level2 > .content .desc{
   margin-top:40px;
+}
+
+.level2 > .content .report-summary > .title{
+  margin-top:30px;
+  font-size:25px;
+}
+
+.level2 > .content .report-summary > .desc{
+  margin-top:20px;text-align:left;
+  padding:30px;
+  font-size: 17px;
+}
+
+.level2 > .content .report-summary > .desc > .title{
+  font-weight: bold;
+}
+
+.level2 > .content .report-summary > .desc > .title > .date{
+  font-weight: 300; padding-left: 20px;
+}
+
+.level2 > .content .report-summary > .desc > .desc{
+  font-weight: 400;
+  margin-top:10px;
+  font-size:15px;
 }
 
 .level2 > .content .bgimg{
