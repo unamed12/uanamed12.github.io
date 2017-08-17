@@ -21,7 +21,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar">
   <header>
     <nav class="navbar navbar-default navbar-fixed-top nav-theme">
       <div class="container">
@@ -32,13 +32,28 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-          <a class="navbar-brand" href="#">Bongsrocket.com</a>
+          <a class="navbar-brand" href="#">하봉안입니다</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active">
+              <a href="#level_summary"><span>성과 요약</span></a>
+            </li>
+            <li>
+              <a href="#level_greetings"><span>자기소개</span></a>
+            </li>
+            <li>
+              <a href="#level_process"><span>나만의 프로세스</span></a>
+            </li>
+            <li>
+              <a href="#level_experience"><span>경험</span></a>
+            </li>
+            <li>
+              <a href="#level_skill"><span>스킬</span></a>
+            </li>
+            <li>
+              <a href="#level_contact"><span>연락</span></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -61,7 +76,7 @@
                   <table class="table">
                     <tr>
                       <td>
-                        <a href="#level4">
+                        <a href="#level_summary">
                           <img class="icons" src="image/icon-report.png" />
                           <div>
                             성과 요약
@@ -70,7 +85,7 @@
                       </td>
 
                       <td>
-                        <a hr ef="#level2">
+                        <a href="#level_greetings">
                           <img class="icons" src="image/icon-vision.png" />
                           <div>
                             자기소개
@@ -79,8 +94,8 @@
                       </td>
 
                       <td>
-                        <a href="#level3">
-                          <img class="icons" src="image/icon-report.png" />
+                        <a href="#level_process">
+                          <img class="icons" src="image/icon-process.png" />
                           <div>
                             나만의 프로세스
                           </div>
@@ -88,7 +103,7 @@
                       </td>
 
                       <td>
-                        <a href="#level5">
+                        <a href="#level_experience">
                           <img class="icons" src="image/icon-experience.png" />
                           <div>
                             경험
@@ -97,7 +112,7 @@
                       </td>
 
                       <td>
-                        <a href="#level6">
+                        <a href="#level_skill">
                           <img class="icons" src="image/icon-skill.png" />
                           <div>
                             스킬
@@ -105,7 +120,7 @@
                         </a>
                       </td>
                       <td>
-                        <a href="#level7">
+                        <a href="#level_contact">
                           <img class="icons" src="image/icon-contact.png" />
                           <div style="padding-top:10px;">
                             연락
@@ -242,7 +257,8 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <a class="atag" href="https://www.gofounder.net/user/profile/5" target="_blank">저는 하봉안이라고 합니다.</a> 서울 광진구에 살고 있으며 건국대학교 경영학과를 졸업하고 현재 <a href="https://www.gofounder.net" class="atag" target="_blank">'고파운더'</a>라는 웹사이트를 운영하며 웹서비스를 만드는 재미에 빠져있습니다. 지난 2012년부터
+                    <a class="atag" href="https://www.gofounder.net/user/profile/5" target="_blank">저는 하봉안이라고 합니다.</a> 서울 광진구에 살고 있으며 건국대학교 경영학과를 졸업하고 현재 <a href="https://www.gofounder.net" class="atag" target="_blank">'고파운더'</a>라는 웹사이트를 운영하며 웹서비스를 만드는
+                    재미에 빠져있습니다. 지난 2012년부터
                     <a class="atag" href="#">3번의 스타트업과 그 외의 여러 경험</a>을 통해 실로 IT와 기술 비즈니스에 대해 많은 애정을 쌓았습니다.
                     <br /><br /> 사업에 대한 깊은 열정으로 비즈니스 분야에 대한 것이라면 무엇이든 관심을 갖고 얘기를 하는 것을 좋아합니다. 약 3년의 기간동안 모바일/웹 서비스 기획과 운영, 개발, 마케팅 등 기술 비즈니스와 관련된 모든 분야에서 스타트업 문화와 방법론을 근간으로 일해왔습니다.
                   </div>
@@ -408,12 +424,14 @@
                             <div class="header">
                               <span class="title">(주)스펙업애드 링커리어</span><span class="subtitle">팀원</span>
                               <br />
-                              <span class="date">2012년 11월 ~ 2014년 1월</span>
+                              <span class="date">2017년 2월 ~ 2017년 6월</span>
                             </div>
                             <div class="content">
-                              - 몬스그룹에서는 뉴미디어 서비스 '하루에 한 가지 뉴스, 뉴스몬'과 위치기반 SNS '우리 동네 SNS, 동네몬'을 기획/운영했습니다.<br />
-                              - 뉴스몬의 웹사이트 기획 및 콘텐츠 운영을 맡았으며, 동네몬은 서비스 초기 기획부터 PM 및 운영을 맡아 관리했습니다.<br />
-                              - 초기 스타트업에 창업멤버로 합류해 비즈니스에 대해 많은 고민과 경험을 할 수 있었습니다
+                              <a class="amodal" data-toggle="modal" data-target="#experience_linkareer">
+                                - 링커리어에서는 '대외활동 추천 서비스, 링커리어'를 운영했습니다.
+                                <br /> - 뉴스몬의 웹사이트 기획 및 콘텐츠 운영을 맡았으며, 동네몬은 서비스 초기 기획부터 PM 및 운영을 맡아 관리했습니다.
+                                <br /> - 초기 스타트업에 창업멤버로 합류해 비즈니스에 대해 많은 고민과 경험을 할 수 있었습니다
+                              </a>
                             </div>
                             <div class="readmore">
                               <a class="atag" data-toggle="modal" data-target="#experience_linkareer">더 읽어보세요...</a>
@@ -447,9 +465,9 @@
                               <span class="date">2012년 11월 ~ 2014년 1월</span>
                             </div>
                             <div class="content">
-                              - 몬스그룹에서는 뉴미디어 서비스 '하루에 한 가지 뉴스, 뉴스몬'과 위치기반 SNS '우리 동네 SNS, 동네몬'을 기획/운영했습니다.<br />
-                              - 뉴스몬의 웹사이트 기획 및 콘텐츠 운영을 맡았으며, 동네몬은 서비스 초기 기획부터 PM 및 운영을 맡아 관리했습니다.<br />
-                              - 초기 스타트업에 창업멤버로 합류해 비즈니스에 대해 많은 고민과 경험을 할 수 있었습니다
+                              <a class="amodal" data-toggle="modal" data-target="#experience_gofounder">
+                                - 몬스그룹에서는 뉴미디어 서비스 '하루에 한 가지 뉴스, 뉴스몬'과 위치기반 SNS '우리 동네 SNS, 동네몬'을 기획/운영했습니다.<br /> - 뉴스몬의 웹사이트 기획 및 콘텐츠 운영을 맡았으며, 동네몬은 서비스 초기 기획부터 PM 및 운영을 맡아 관리했습니다.<br /> - 초기 스타트업에 창업멤버로 합류해 비즈니스에 대해 많은 고민과 경험을 할 수 있었습니다
+                                </a>
                             </div>
                             <div class="readmore">
                               <a class="atag" data-toggle="modal" data-target="#experience_gofounder">더 읽어보세요...</a>
@@ -473,98 +491,98 @@
     <script>
       $(document).ready(function() {
 
-        var windowWidth = $( window ).width();
-          if(windowWidth > 991) {
+        var windowWidth = $(window).width();
+        if (windowWidth > 991) {
 
-            $("#icon1").mouseover(function() {
-              $("#icon1-trans-area").show();
-              $("#icon1-area").hide();
-              $("#icon2-area").hide();
-            });
-            $("#icon1-trans-area").mouseleave(function() {
-              $("#icon1-trans-area").hide();
-              $("#icon1-area").show();
-              $("#icon2-area").show();
-            });
+          $("#icon1").mouseover(function() {
+            $("#icon1-trans-area").show();
+            $("#icon1-area").hide();
+            $("#icon2-area").hide();
+          });
+          $("#icon1-trans-area").mouseleave(function() {
+            $("#icon1-trans-area").hide();
+            $("#icon1-area").show();
+            $("#icon2-area").show();
+          });
 
-            $("#icon2").mouseover(function() {
-              $("#icon2-trans-area").show();
-              $("#icon2-area").hide();
-              $("#icon1-area").hide();
-            });
-            $("#icon2-trans-area").mouseleave(function() {
-              $("#icon2-trans-area").hide();
-              $("#icon2-area").show();
-              $("#icon1-area").show();
-            });
+          $("#icon2").mouseover(function() {
+            $("#icon2-trans-area").show();
+            $("#icon2-area").hide();
+            $("#icon1-area").hide();
+          });
+          $("#icon2-trans-area").mouseleave(function() {
+            $("#icon2-trans-area").hide();
+            $("#icon2-area").show();
+            $("#icon1-area").show();
+          });
 
-            $("#icon3").mouseover(function() {
-              $("#icon3-trans-area").show();
-              $("#icon3-area").hide();
-              $("#icon4-area").hide();
-            });
-            $("#icon3-trans-area").mouseleave(function() {
-              $("#icon3-trans-area").hide();
-              $("#icon3-area").show();
-              $("#icon4-area").show();
-            });
+          $("#icon3").mouseover(function() {
+            $("#icon3-trans-area").show();
+            $("#icon3-area").hide();
+            $("#icon4-area").hide();
+          });
+          $("#icon3-trans-area").mouseleave(function() {
+            $("#icon3-trans-area").hide();
+            $("#icon3-area").show();
+            $("#icon4-area").show();
+          });
 
-            $("#icon4").mouseover(function() {
-              $("#icon4-trans-area").show();
-              $("#icon3-area").hide();
-              $("#icon4-area").hide();
-            });
-            $("#icon4-trans-area").mouseleave(function() {
-              $("#icon4-trans-area").hide();
-              $("#icon3-area").show();
-              $("#icon4-area").show();
-            });
+          $("#icon4").mouseover(function() {
+            $("#icon4-trans-area").show();
+            $("#icon3-area").hide();
+            $("#icon4-area").hide();
+          });
+          $("#icon4-trans-area").mouseleave(function() {
+            $("#icon4-trans-area").hide();
+            $("#icon3-area").show();
+            $("#icon4-area").show();
+          });
 
-          } else {
+        } else {
 
-            $("#icon1").mouseover(function() {
-              $("#icon1-trans-area").show();
-              $("#icon1-area").hide();
+          $("#icon1").mouseover(function() {
+            $("#icon1-trans-area").show();
+            $("#icon1-area").hide();
 
-            });
-            $("#icon1-trans-area").mouseleave(function() {
-              $("#icon1-trans-area").hide();
-              $("#icon1-area").show();
+          });
+          $("#icon1-trans-area").mouseleave(function() {
+            $("#icon1-trans-area").hide();
+            $("#icon1-area").show();
 
-            });
+          });
 
-            $("#icon2").mouseover(function() {
-              $("#icon2-trans-area").show();
-              $("#icon2-area").hide();
+          $("#icon2").mouseover(function() {
+            $("#icon2-trans-area").show();
+            $("#icon2-area").hide();
 
-            });
-            $("#icon2-trans-area").mouseleave(function() {
-              $("#icon2-trans-area").hide();
-              $("#icon2-area").show();
+          });
+          $("#icon2-trans-area").mouseleave(function() {
+            $("#icon2-trans-area").hide();
+            $("#icon2-area").show();
 
-            });
+          });
 
-            $("#icon3").mouseover(function() {
-              $("#icon3-trans-area").show();
-              $("#icon3-area").hide();
+          $("#icon3").mouseover(function() {
+            $("#icon3-trans-area").show();
+            $("#icon3-area").hide();
 
-            });
-            $("#icon3-trans-area").mouseleave(function() {
-              $("#icon3-trans-area").hide();
-              $("#icon3-area").show();
+          });
+          $("#icon3-trans-area").mouseleave(function() {
+            $("#icon3-trans-area").hide();
+            $("#icon3-area").show();
 
-            });
+          });
 
-            $("#icon4").mouseover(function() {
-              $("#icon4-trans-area").show();
-              $("#icon4-area").hide();
-            });
-            $("#icon4-trans-area").mouseleave(function() {
-              $("#icon4-trans-area").hide();
-              $("#icon4-area").show();
-            });
+          $("#icon4").mouseover(function() {
+            $("#icon4-trans-area").show();
+            $("#icon4-area").hide();
+          });
+          $("#icon4-trans-area").mouseleave(function() {
+            $("#icon4-trans-area").hide();
+            $("#icon4-area").show();
+          });
 
-          }
+        }
       });
     </script>
 
@@ -582,29 +600,27 @@
             <div clsas="row">
               <div class="col-md-12">
                 <p>
-                  지난 2012년부터 몬스그룹이라는 스타트업에 창업멤버로 합류하여 초기 스타트업에서 필요한 것을 직접 실행하면서,
-                  기술 비즈니스에 대한 이해와 모바일/웹서비스 기획 및 운영에 대한 기초를 쌓을 수 있었습니다.
+                  지난 2012년부터 몬스그룹이라는 스타트업에 창업멤버로 합류하여 초기 스타트업에서 필요한 것을 직접 실행하면서, 기술 비즈니스에 대한 이해와 모바일/웹서비스 기획 및 운영에 대한 기초를 쌓을 수 있었습니다.
                 </p>
                 <p class="title">
                   뉴스몬
                 </p>
                 <p>
-                  초기 몬스그룹에서 '하루에 한 가지 뉴스'라는 콘셉트의 인터넷 뉴미디어 서비스 '뉴스몬'의 편집장을 맡아, 뉴스 기사와 디지털 콘텐츠를 생산하고 편집하여 웹에 유통시키는 일을 하였습니다.
-                  '뉴스몬'은 '하루에 한 가지 뉴스'라는 콘셉트로 정치, 사회, 경제, 스포츠 등 각 분야별로 그 날의 가장 핫한 이슈 한 가지만을 심도 깊게 다루는 인터넷 미디어입니다.
-                  저는 이 서비스의 편집장을 맡아 직접 뉴스 기사를 생산할뿐만 아니라, 웹페이지 기획과 사용성 극대화 계획, 마케팅, 제휴 등 비즈니스에 관련된 모든 일을 수행했습니다.
+                  초기 몬스그룹에서 '하루에 한 가지 뉴스'라는 콘셉트의 인터넷 뉴미디어 서비스 '뉴스몬'의 편집장을 맡아, 뉴스 기사와 디지털 콘텐츠를 생산하고 편집하여 웹에 유통시키는 일을 하였습니다. '뉴스몬'은 '하루에 한 가지 뉴스'라는 콘셉트로 정치, 사회, 경제, 스포츠 등 각 분야별로 그 날의 가장 핫한 이슈 한 가지만을 심도 깊게 다루는 인터넷 미디어입니다. 저는 이 서비스의 편집장을 맡아 직접 뉴스 기사를 생산할뿐만 아니라, 웹페이지 기획과 사용성
+                  극대화 계획, 마케팅, 제휴 등 비즈니스에 관련된 모든 일을 수행했습니다.
                 </p>
                 <p>
-                  이 과정에서 '뉴스몬'의 2천개가 넘는 기사를 작성하였고, 이러한 경험을 바탕으로 이후에도 블로그, 원고 작성 등을 통해 글을 작성하는 능력을 유지해왔습니다.
-                  ‘뉴스몬’을 운영하면서, 포털 사이트 다음과 뉴스 기사 검색제휴를 하면서 2013년에는 랭키닷컴 기준 뉴미디어 부문 1위를 달성하는 쾌거를 이루기도 했습니다.
+                  이 과정에서 '뉴스몬'의 2천개가 넘는 기사를 작성하였고, 이러한 경험을 바탕으로 이후에도 블로그, 원고 작성 등을 통해 글을 작성하는 능력을 유지해왔습니다. ‘뉴스몬’을 운영하면서, 포털 사이트 다음과 뉴스 기사 검색제휴를 하면서 2013년에는 랭키닷컴 기준 뉴미디어 부문 1위를 달성하는 쾌거를 이루기도 했습니다.
                 </p>
                 <p class="title">
                   동네몬
                 </p>
                 <p>
-                  이후 2013년에는 안드로이드 기반 소셜 네트워크 서비스인 ‘동네몬’을 기획하며 모바일 비즈니스에 대한 많은 연구도 동반했습니다.
-                  '동네몬'은 '우리 동네 SNS, 동네몬'이라는 슬로건을 바탕으로 내 주변의 이웃들과 네트워킹 할 수 있는 안드로이드 플랫폼의 모바일 애플리케이션 입니다.
-                  <br />서비스 기능 설계에 참여하고, 개발일정을 관리하는 PM 업무를 진행하며 서비스의 사용성 향상과 제품 QA를 주로 진행했으며,
-                  서비스가 출시된 이후에는 서비스의 세부적인 기획들을 조정하고, 서비스를 운영하는 일과 더불어 디지털 마케팅까지 참여하여 모바일 서비스에 대한 이해도를 높였습니다.
+                  이후 2013년에는 안드로이드 기반 소셜 네트워크 서비스인 ‘동네몬’을 기획하며 모바일 비즈니스에 대한 많은 연구도 동반했습니다. '동네몬'은 '우리 동네 SNS, 동네몬'이라는 슬로건을 바탕으로 내 주변의 이웃들과 네트워킹 할 수 있는 안드로이드 플랫폼의 모바일 애플리케이션 입니다.
+                  <br />서비스 기능 설계에 참여하고, 개발일정을 관리하는 PM 업무를 진행하며 서비스의 사용성 향상과 제품 QA를 주로 진행했으며, 서비스가 출시된 이후에는 서비스의 세부적인 기획들을 조정하고, 서비스를 운영하는 일과 더불어 디지털 마케팅까지 참여하여 모바일 서비스에 대한 이해도를 높였습니다.
+                </p>
+                <p class="contribution">
+                  - 서비스 모델 기획 및 운영, 서비스 제휴, 모바일 서비스 UI/UX 기획 및 운영, 사업 모델 수립, 디지털 마케팅
                 </p>
                 <hr />
               </div>
@@ -613,7 +629,7 @@
             <div class="row">
               <div class="col-md-12 text-center img-area">
                 <p>
-                  <img src="image/newsmon-rankydotcom.jpg"  />
+                  <img src="image/newsmon-rankydotcom.jpg" />
                 </p>
                 <p class="desc">
                   [그림 1] 뉴스몬 랭키닷컴 1위 달성
@@ -624,7 +640,7 @@
               <hr />
               <div class="col-md-12 text-center img-area">
                 <p>
-                  <img src="image/dongnemon1.jpg"  />
+                  <img src="image/dongnemon1.jpg" />
                 </p>
                 <p class="desc">
                   [그림 2] 동네몬 내 '광장' 서비스
@@ -658,36 +674,34 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <div class="modal-title">(주)몬스그룹에서</div>
+          <div class="modal-title">라우드웨어에서</div>
         </div>
         <div class="modal-body">
           <div class="container-fluid">
             <div clsas="row">
               <div class="col-md-12">
                 <p>
-                  지난 2012년부터 몬스그룹이라는 스타트업에 창업멤버로 합류하여 초기 스타트업에서 필요한 것을 직접 실행하면서,
-                  기술 비즈니스에 대한 이해와 모바일/웹서비스 기획 및 운영에 대한 기초를 쌓을 수 있었습니다.
+                  지난 2014년 엔지니어들을 모아 라우드웨어를 설립하고, 소셜 데이팅 서비스인 'after4days(사파이어)'를 론칭, 1개월 간 운영하였습니다. 라우드웨어에서 첫 서비스를 6개월만에 출시해 1개월 간 서비스를 운영하는데 성공했지만, 기술적인 이슈 및 멤버들의 이탈로 인해 많은 미숙함을 노출하고 서비스를 중단할 수 밖에 없었습니다.
+                </p>
+                <p>
+                  이 사업을 통해 한 가지 깨달은 것은 결국 비즈니스는 고객에 대한 충실한 이해가 모든 것이라는 점입니다. 고객들이 느끼는 불편함을 명확하게 정의하고, 그것에 확실하게 알맞는 해결책을 갖다주는 것이 핵심이라는 것입니다. 두 번째로 깨달은 바는 팀을 구축하고, 팀의 비전을 수호하는 일, 그리고 팀원들의 욕구를 하나로 일치시키는 점이 가장 중요하다는 것입니다. 아무리 훌륭한 아이디어와 뛰어난 역량을 갖춘 팀원이 있더라도 그들이 같은 방향을 바라보며 달려가는
+                  동반자로 만드는 것은 전혀 다른 이야기입니다.
                 </p>
                 <p class="title">
-                  뉴스몬
+                  after4days(사파이어)
                 </p>
                 <p>
-                  초기 몬스그룹에서 '하루에 한 가지 뉴스'라는 콘셉트의 인터넷 뉴미디어 서비스 '뉴스몬'의 편집장을 맡아, 뉴스 기사와 디지털 콘텐츠를 생산하고 편집하여 웹에 유통시키는 일을 하였습니다.
-                  '뉴스몬'은 '하루에 한 가지 뉴스'라는 콘셉트로 정치, 사회, 경제, 스포츠 등 각 분야별로 그 날의 가장 핫한 이슈 한 가지만을 심도 깊게 다루는 인터넷 미디어입니다.
-                  저는 이 서비스의 편집장을 맡아 직접 뉴스 기사를 생산할뿐만 아니라, 웹페이지 기획과 사용성 극대화 계획, 마케팅, 제휴 등 비즈니스에 관련된 모든 일을 수행했습니다.
+                  지난 2014년 여름, 프라이머 엔턴십에 참가하던 와중에 데이팅 시장에 크게 관심을 갖게 되었습니다. 데이팅 시장에는 외모로 사람을 판단하는 풍조가 팽배했습니다. 정말 좋은 사람임에도 불구하고 단순히 외모와 스펙 등으로 이성과 대화해 볼 기회조차 갖지 못하는 것은 불공평 했습니다. 외모는 태생적인 것이며, 바꾸기가 어려운 것인데 이로 인해 좌절감을 겪고 인생에 대해 비관하는 친구들을 보며, 새로운 방법이 필요하다고 여겼습니다.
                 </p>
                 <p>
-                  이 과정에서 '뉴스몬'의 2천개가 넘는 기사를 작성하였고, 이러한 경험을 바탕으로 이후에도 블로그, 원고 작성 등을 통해 글을 작성하는 능력을 유지해왔습니다.
-                  ‘뉴스몬’을 운영하면서, 포털 사이트 다음과 뉴스 기사 검색제휴를 하면서 2013년에는 랭키닷컴 기준 뉴미디어 부문 1위를 달성하는 쾌거를 이루기도 했습니다.
-                </p>
-                <p class="title">
-                  동네몬
+                  따라서 이러한 문제점을 해결하기 위해 외모중심적인 '이성 쇼핑'의 풍조를 깨고, 대화 중심의 블라인드 데이팅 서비스 모델을 수립하기 위해 고심했습니다. 온라인상에서 외모에 기인한 신뢰도를 담보하기보다 대화를 통해 서로의 신뢰도를 쌓을 수 있도록, 오랜 시간동안 타인의 삶에 관심을 가질 수 있는 모바일 서비스를 구상했습니다. 비즈니스 시나리오를 구성하고, 사전조사와 시뮬레이션을 통해 비즈니스 모델의 타당성을 검증한 뒤 6개월 간 서비스를 개발하고
+                  론칭했습니다.
                 </p>
                 <p>
-                  이후 2013년에는 안드로이드 기반 소셜 네트워크 서비스인 ‘동네몬’을 기획하며 모바일 비즈니스에 대한 많은 연구도 동반했습니다.
-                  '동네몬'은 '우리 동네 SNS, 동네몬'이라는 슬로건을 바탕으로 내 주변의 이웃들과 네트워킹 할 수 있는 안드로이드 플랫폼의 모바일 애플리케이션 입니다.
-                  <br />서비스 기능 설계에 참여하고, 개발일정을 관리하는 PM 업무를 진행하며 서비스의 사용성 향상과 제품 QA를 주로 진행했으며,
-                  서비스가 출시된 이후에는 서비스의 세부적인 기획들을 조정하고, 서비스를 운영하는 일과 더불어 디지털 마케팅까지 참여하여 모바일 서비스에 대한 이해도를 높였습니다.
+                  결국 실패로 끝난 일이지만, 저는 결코 실패라고 생각하지 않습니다. 팀원을 모으기 위해 비전을 설명하고 설득하는 과정부터, 제품 개발과 마케팅에서 겪은 문제점들, 고객을 대상으로 오프라인 미팅을 개최하고 고객 인터뷰를 통해 불만사항을 반영하는 등의 여러 경험들은 비록 미숙했지만 저를 성장시키는 최고의 경험들이었습니다.
+                </p>
+                <p class="contribution">
+                  - 팀 운영, UI/UX 설계, 프론트엔드 개발 일부 및 GUI 구현, 사업 모델 수립, 디지털 마케팅
                 </p>
                 <hr />
               </div>
@@ -696,10 +710,10 @@
             <div class="row">
               <div class="col-md-12 text-center img-area">
                 <p>
-                  <img src="image/newsmon-rankydotcom.jpg"  />
+                  <img src="image/safire.png" />
                 </p>
                 <p class="desc">
-                  [그림 1] 뉴스몬 랭키닷컴 1위 달성
+                  [그림 4] after4days 마켓 데이터
                 </p>
               </div>
             </div>
@@ -707,10 +721,10 @@
               <hr />
               <div class="col-md-12 text-center img-area">
                 <p>
-                  <img src="image/dongnemon1.jpg"  />
+                  <img src="image/safire2.png" />
                 </p>
                 <p class="desc">
-                  [그림 2] 동네몬 내 '광장' 서비스
+                  [그림 5] after4days 인앱결제 매출 데이터
                 </p>
               </div>
             </div>
@@ -718,13 +732,92 @@
               <hr />
               <div class="col-md-12 text-center img-area">
                 <p>
-                  <img src="image/dongnemon.png" />
+                  <img src="image/safire3.png" />
                 </p>
                 <p class="desc">
-                  <a class="atag" href="https://play.google.com/store/apps/details?id=com.monsgroup.dongnaemon.android&hl=ko">[그림 3] 동네몬 구글 플레이</a>
+                  [그림 6] after4days에서 Safire로 리뉴얼 된 애플리케이션 화면
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-blue-fill" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="experience_linkareer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <div class="modal-title">링커리어에서</div>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div clsas="row">
+              <div class="col-md-12">
+                <p>
+                  지난 2014년 엔지니어들을 모아 라우드웨어를 설립하고, 소셜 데이팅 서비스인 'after4days(사파이어)'를 론칭, 1개월 간 운영하였습니다. 라우드웨어에서 첫 서비스를 6개월만에 출시해 1개월 간 서비스를 운영하는데 성공했지만, 기술적인 이슈 및 멤버들의 이탈로 인해 많은 미숙함을 노출하고 서비스를 중단할 수 밖에 없었습니다.
+                </p>
+                <p>
+                  이 사업을 통해 한 가지 깨달은 것은 결국 비즈니스는 고객에 대한 충실한 이해가 모든 것이라는 점입니다. 고객들이 느끼는 불편함을 명확하게 정의하고, 그것에 확실하게 알맞는 해결책을 갖다주는 것이 핵심이라는 것입니다. 두 번째로 깨달은 바는 팀을 구축하고, 팀의 비전을 수호하는 일, 그리고 팀원들의 욕구를 하나로 일치시키는 점이 가장 중요하다는 것입니다. 아무리 훌륭한 아이디어와 뛰어난 역량을 갖춘 팀원이 있더라도 그들이 같은 방향을 바라보며 달려가는
+                  동반자로 만드는 것은 전혀 다른 이야기입니다.
+                </p>
+                <p class="title">
+                  after4days(사파이어)
+                </p>
+                <p>
+                  지난 2014년 여름, 프라이머 엔턴십에 참가하던 와중에 데이팅 시장에 크게 관심을 갖게 되었습니다. 데이팅 시장에는 외모로 사람을 판단하는 풍조가 팽배했습니다. 정말 좋은 사람임에도 불구하고 단순히 외모와 스펙 등으로 이성과 대화해 볼 기회조차 갖지 못하는 것은 불공평 했습니다. 외모는 태생적인 것이며, 바꾸기가 어려운 것인데 이로 인해 좌절감을 겪고 인생에 대해 비관하는 친구들을 보며, 새로운 방법이 필요하다고 여겼습니다.
+                </p>
+                <p>
+                  따라서 이러한 문제점을 해결하기 위해 외모중심적인 '이성 쇼핑'의 풍조를 깨고, 대화 중심의 블라인드 데이팅 서비스 모델을 수립하기 위해 고심했습니다. 온라인상에서 외모에 기인한 신뢰도를 담보하기보다 대화를 통해 서로의 신뢰도를 쌓을 수 있도록, 오랜 시간동안 타인의 삶에 관심을 가질 수 있는 모바일 서비스를 구상했습니다. 비즈니스 시나리오를 구성하고, 사전조사와 시뮬레이션을 통해 비즈니스 모델의 타당성을 검증한 뒤 6개월 간 서비스를 개발하고
+                  론칭했습니다.
+                </p>
+                <p>
+                  결국 실패로 끝난 일이지만, 저는 결코 실패라고 생각하지 않습니다. 팀원을 모으기 위해 비전을 설명하고 설득하는 과정부터, 제품 개발과 마케팅에서 겪은 문제점들, 고객을 대상으로 오프라인 미팅을 개최하고 고객 인터뷰를 통해 불만사항을 반영하는 등의 여러 경험들은 비록 미숙했지만 저를 성장시키는 최고의 경험들이었습니다.
+                </p>
+                <p class="contribution">
+                  - 팀 운영, UI/UX 설계, 프론트엔드 개발 일부 및 GUI 구현, 사업 모델 수립, 디지털 마케팅
+                </p>
+                <hr />
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-md-12 text-center img-area">
+                <p>
+                  <img src="image/safire.png" />
+                </p>
+                <p class="desc">
+                  [그림 4] after4days 마켓 데이터
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <hr />
+              <div class="col-md-12 text-center img-area">
+                <p>
+                  <img src="image/safire2.png" />
+                </p>
+                <p class="desc">
+                  [그림 5] after4days 인앱결제 매출 데이터
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <hr />
+              <div class="col-md-12 text-center img-area">
+                <p>
+                  <img src="image/safire3.png" />
+                </p>
+                <p class="desc">
+                  [그림 6] after4days에서 Safire로 리뉴얼 된 애플리케이션 화면
+                </p>
+              </div>
             </div>
           </div>
         </div>

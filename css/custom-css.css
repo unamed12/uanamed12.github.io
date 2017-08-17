@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
+  position: relative;
   font-family: 'Noto Sans KR', "맑은 고딕", "Malgun Gothic", "Apple Gothic", "돋움", Dotum, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 14px;
   font-weight: 300;
@@ -107,11 +108,22 @@ body {
 
 .navbar-brand {
   font-size: 20px;
+  color: #00a8ff !important;
+  font-weight: 400;
 }
-
+.navbar-default .navbar-nav>li>a{
+  font-size:16px;
+  letter-spacing: -1px;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #00a8ff;
   background-color: transparent !important;
+  color: #00a8ff;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav>.active>a>span, .navbar-default .navbar-nav>.active>a:focus>span, .navbar-default .navbar-nav>.active>a:hover>span {
+    padding-bottom:17px;
+    border-bottom: solid 1px #00a8ff;
+  }
 }
 
 /*레벨_intro 시작*/
