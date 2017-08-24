@@ -2,7 +2,7 @@
 body {
   position: relative;
   font-family: 'Noto Sans KR', "맑은 고딕", "Malgun Gothic", "Apple Gothic", "돋움", Dotum, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
   color:#3d464d;
@@ -114,6 +114,7 @@ body {
 .navbar-default .navbar-nav>li>a{
   font-size:16px;
   letter-spacing: -1px;
+  font-weight: 400;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color: transparent !important;
@@ -192,7 +193,7 @@ body {
 .level_intro table > tbody > tr > td > a > div{
   padding-top:20px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color:#47525d;
 }
 @media (max-width: 707px) {
@@ -221,7 +222,7 @@ body {
 
 .level_greetings > .content .desc{
   text-align: left;
-  font-size:16px;
+  font-size:18px;
   margin-top:40px;
 }
 
@@ -240,7 +241,7 @@ body {
 }
 .level_process > .content .desc{
   margin-top:40px;
-  font-size:16px;
+  font-size:18px;
 }
 .level_process > .content .bgimg{
   width:500px;
@@ -277,7 +278,7 @@ body {
 .level_summary > .content .report-summary > .card{
   margin-top:20px;text-align:left;
   padding:30px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .level_summary > .content .report-summary > .card .title{
@@ -287,7 +288,7 @@ body {
 .level_summary > .content .report-summary > .card .desc{
   font-weight: 300;
   margin-top:10px;
-  font-size:15px;
+  font-size:18px;
 }
 
 
@@ -356,9 +357,47 @@ body {
 .level_experience > .content .experience .card .summary-area > .content{
   margin-top:10px;
   font-weight: 400;
+  font-size:14px;
 }
 .level_experience > .content .experience .card .summary-area > .readmore{
 
+}
+
+.level_contact {
+
+}
+
+.level_contact > .content {
+  padding: 100px 0px;
+  background-color:#f9f9f9;
+}
+
+.level_contact > .content .title {
+  margin-top: 10px;
+}
+
+.level_contact > .content .desc {
+  margin-top: 20px;
+}
+
+.level_contact > .content .desc .list-area{
+  margin-top: 40px;
+}
+
+.level_contact > .content .desc .list-area ul{
+  list-style: none;
+  padding:0px;
+}
+
+.level_contact > .content .desc .list-area ul li{
+  display: inline;
+  margin-right: 50px;
+}
+
+.level_contact > .content .desc .list-area ul li a{
+  font-size:25px !important;
+  padding:20px;
+  font-weight: bold;
 }
 
 .modal-title{
